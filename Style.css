@@ -29,13 +29,13 @@ main {
     margin-bottom: 15px;
 }
 
-.navbar-inverse {
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    color: #CEAEBF;
     background-color: #5E2241;
     border-color: #5E2241;
-    color: #CEAEBF;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-inverse.navbar-brand {
     color: #CEAEBF;
 }
 
@@ -56,11 +56,11 @@ main {
     text-shadow: 3px 3px 4px #FBE7D4;
 }
 
-.jumbotron small{
+.jumbotron small {
     color: #1F5829;
 }
 
-.jumbtron p{
+.jumbtron p {
     font-size: 1.3em;
     font-weight: bold;
 }
