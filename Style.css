@@ -9,8 +9,7 @@ body {
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
-    background: #022A3B !Important;
-    position: relative;
+    background: url(images/tartan.png) #A2C0A7;
 }
 
 footer {
@@ -18,8 +17,8 @@ footer {
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: #15516B;
-    color: #427A92;
+    background-color: #5E2241;
+    color: #CEAEBF;
     text-align: center;
     padding: 15px;
 }
@@ -27,17 +26,17 @@ footer {
 main {
     background-color: #FBE7D4;
     padding-bottom: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 nav.navbar.navbar-inverse.navbar-fixed-top {
-    color: #427A92;
-    background-color: #15516B;
-    border-color: #15516B;
+    color: #CEAEBF;
+    background-color: #5E2241;
+    border-color: #5E2241;
 }
 
 .navbar-inverse.navbar-brand {
-    color: #427A92;
+    color: #CEAEBF;
 }
 
 .navbar-inverse .btn {
@@ -45,7 +44,23 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     color: #5E2241;
 }
 
-.title {
-    color: #427A92;
-    padding-top: 50px;
+.jumbotron {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: black;
+    text-align: center;
+    background-image: url(images/veggies-background.jpg);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px 4px #FBE7D4;
+}
+
+.jumbotron small {
+    color: #1F5829;
+}
+
+.jumbtron p {
+    font-size: 1.3em;
+    font-weight: bold;
 }
